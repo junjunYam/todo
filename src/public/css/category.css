@@ -1,77 +1,58 @@
-.todo__alert--success {
+.category__alert--success {
     padding: 10px 30px;
-    border-color: #badbcc;
     background-color: #d1e7dd;
     color: #0f5132;
+    border-color: #badbcc;
 }
 
-.todo__alert--danger {
+.category__alert--danger {
     padding: 10px 0;
-    border-color: #f5c2c7;
     background-color: #f8d7da;
     color: #842029;
+    border-color: #f5c2c7;
 }
 
-.todo__alert--danger ul {
+.category__alert--danger ul {
     margin: 0;
 }
 
-.todo__content {
+.category__content {
     margin: 0 auto;
-    padding: 30px 15px;
+    padding: 60px 15px;
     max-width: 1230px;
 }
 
-.section-title,
-.create-form,
-.search-form {
+.create-form {
     width: 70%;
     margin: 0 auto;
 }
 
-.create-form,
-.search-form {
+.create-form {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.create-form__item,
-.search-form__item {
+.create-form__item {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
 
-.create-form__item-input,
-.search-form__item-input {
+.create-form__item-input {
     margin-right: 10px;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     height: 40px;
     border: 1px solid #ddd;
     border-radius: 3px;
 }
 
-.create-form__item-select,
-.search-form__item-select {
-    padding: 10px;
-    width: 30%;
-    height: 40px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.create-form__button,
-.search-form__button {
+.create-form__button {
     width: 20%;
 }
 
-.create-form__button-submit,
-.search-form__button-submit {
+.create-form__button-submit {
     padding: 10px;
     width: 100%;
     height: 40px;
@@ -82,32 +63,32 @@
     cursor: pointer;
 }
 
-.todo-table {
+.category-table {
     margin: 30px auto;
     width: 70%;
     text-align: left;
 }
 
-.todo-table__inner {
+.category-table__inner {
     width: 100%;
 }
 
-.todo-table__row {
+.category-table__row {
     border-bottom: 1px solid #ddd;
 }
 
-.todo-table__header,
-.todo-table__item:first-of-type {
+.category-table__header,
+.category-table__item:first-of-type {
     padding: 12px;
     width: 90%;
 }
 
-.todo-table__header {
+.category-table__header {
     text-align: left;
     font-weight: bold;
 }
 
-.todo-table__header-span {
+.category-table__header-span {
     margin-right: 40%;
 }
 
@@ -124,19 +105,10 @@
     justify-content: space-between;
 }
 
-.update-form__todo-input,
-.update-form__category {
+.update-form__category-input {
     width: 50%;
     outline: none;
     border: none;
-}
-
-.update-form__todo-input {
-    width: 60%;
-}
-
-.update-form__category {
-    width: 40%;
 }
 
 .update-form__button {
@@ -167,11 +139,10 @@
     cursor: pointer;
 }
 
-.todo-table__row {
+.category-table__row {
     display: flex;
 }
 
-.todo-table__item:last-of-type {
-    margin: auto 0;
-    padding-right: 10px;
+.category-table__item {
+    padding: 12px 0 12px 12px;
 }
